@@ -6,5 +6,5 @@ class ClassC:
 
     def func_c(self, message):
         print("func_c ", message)
-        ClassA.func_a("from ClassC")
+        ClassA.static_func_a("from ClassC")
 
